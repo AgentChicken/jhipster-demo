@@ -1,0 +1,28 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "syndicate",
+            "otherEntityName": "syndicate",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "federation"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "syndicates",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170216000426",
+    "entityTableName": "federation",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

@@ -1,0 +1,24 @@
+{
+    "jhipsterdemoApp": {
+        "syndicate" : {
+            "home": {
+                "title": "Syndicates",
+                "createLabel": "Create a new Syndicate",
+                "createOrEditLabel": "Create or edit a Syndicate"
+            },
+            "created": "A new Syndicate is created with identifier {{ param }}",
+            "updated": "A Syndicate is updated with identifier {{ param }}",
+            "deleted": "A Syndicate is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Syndicate {{ id }}?"
+            },
+            "detail": {
+                "title": "Syndicate"
+            },
+            "name": "Name",
+            "workplaces": "Workplaces",
+            "delegates": "Delegates",
+            "workplace": "Workplace"
+        }
+    }
+}

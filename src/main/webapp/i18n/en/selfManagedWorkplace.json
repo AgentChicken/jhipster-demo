@@ -1,0 +1,23 @@
+{
+    "jhipsterdemoApp": {
+        "selfManagedWorkplace" : {
+            "home": {
+                "title": "Self Managed Workplaces",
+                "createLabel": "Create a new Self Managed Workplace",
+                "createOrEditLabel": "Create or edit a Self Managed Workplace"
+            },
+            "created": "A new Self Managed Workplace is created with identifier {{ param }}",
+            "updated": "A Self Managed Workplace is updated with identifier {{ param }}",
+            "deleted": "A Self Managed Workplace is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Self Managed Workplace {{ id }}?"
+            },
+            "detail": {
+                "title": "Self Managed Workplace"
+            },
+            "name": "Name",
+            "employees": "Employees",
+            "delegates": "Delegates"
+        }
+    }
+}

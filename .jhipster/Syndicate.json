@@ -1,0 +1,32 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipType": "one-to-one",
+            "relationshipName": "workplace",
+            "otherEntityName": "selfManagedWorkplace",
+            "otherEntityField": "id",
+            "ownerSide": true,
+            "otherEntityRelationshipName": "syndicate"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "workplaces",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "delegates",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170216000426",
+    "entityTableName": "syndicate",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

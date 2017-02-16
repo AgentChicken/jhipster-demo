@@ -1,0 +1,31 @@
+
+<div>
+    <h2><span data-translate="jhipsterdemoApp.federation.detail.title">Federation</span> {{vm.federation.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row jh-entity-details">
+        <dt><span data-translate="jhipsterdemoApp.federation.name">Name</span></dt>
+        <dd>
+            <span>{{vm.federation.name}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterdemoApp.federation.syndicates">Syndicates</span></dt>
+        <dd>
+            <span>{{vm.federation.syndicates}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterdemoApp.federation.syndicate">Syndicate</span></dt>
+        <dd>
+            <a ui-sref="syndicate-detail({id:vm.federation.syndicate.id})">{{vm.federation.syndicate.id}}</a>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="federation-detail.edit({id:vm.federation.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

@@ -1,0 +1,23 @@
+{
+    "jhipsterdemoApp": {
+        "federation" : {
+            "home": {
+                "title": "Federations",
+                "createLabel": "Create a new Federation",
+                "createOrEditLabel": "Create or edit a Federation"
+            },
+            "created": "A new Federation is created with identifier {{ param }}",
+            "updated": "A Federation is updated with identifier {{ param }}",
+            "deleted": "A Federation is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Federation {{ id }}?"
+            },
+            "detail": {
+                "title": "Federation"
+            },
+            "name": "Name",
+            "syndicates": "Syndicates",
+            "syndicate": "Syndicate"
+        }
+    }
+}

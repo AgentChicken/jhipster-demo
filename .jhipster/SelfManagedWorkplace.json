@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "employees",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "delegates",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170216000426",
+    "entityTableName": "self_managed_workplace",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no"
+}

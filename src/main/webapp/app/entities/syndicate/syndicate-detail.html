@@ -1,0 +1,35 @@
+
+<div>
+    <h2><span data-translate="jhipsterdemoApp.syndicate.detail.title">Syndicate</span> {{vm.syndicate.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="row jh-entity-details">
+        <dt><span data-translate="jhipsterdemoApp.syndicate.name">Name</span></dt>
+        <dd>
+            <span>{{vm.syndicate.name}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterdemoApp.syndicate.workplaces">Workplaces</span></dt>
+        <dd>
+            <span>{{vm.syndicate.workplaces}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterdemoApp.syndicate.delegates">Delegates</span></dt>
+        <dd>
+            <span>{{vm.syndicate.delegates}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterdemoApp.syndicate.workplace">Workplace</span></dt>
+        <dd>
+            <a ui-sref="self-managed-workplace-detail({id:vm.syndicate.workplace.id})">{{vm.syndicate.workplace.id}}</a>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="syndicate-detail.edit({id:vm.syndicate.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>
